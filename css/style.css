@@ -1,0 +1,186 @@
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Abril Fatface', cursive,"Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3","メイリオ","Meiryo","MS Pゴシック","MS Pgothic", sans-serif;
+}
+
+
+/*----------common----------*/
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+body {
+	margin: 0;
+	font-size: 16px;
+}
+
+/*----------header----------*/
+
+header {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.header-container {
+	background: #fff;
+}
+
+.header-logo {
+	margin: 10px auto;
+	width: 120px;
+	height: 102px;
+	background : url(../img/common/logo.png);
+	font-size: 0;
+}
+
+/*----------navigation----------*/
+
+nav {
+	background: #fff;
+	border-bottom: solid 5px #00ac97;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+nav li {
+    display: block;
+    padding: 10px 30px;
+    font-size: 20px;
+} 
+
+a:link {
+	text-decoration: none;
+    color: #00ac97;
+}
+
+a:visited {
+    color: #00ac97;
+}
+
+a:hover {
+	color: #ea5549;
+}
+
+/*----------topview---------*/
+.main-container {
+	width: 400px;
+	height: 200px;
+	margin: 10px auto;
+}
+
+.time-box {
+	background-color: rgba(255,255,255,0.8);
+	width: 400px;
+	height: 180px;
+}
+
+.time-box td {
+	padding-left: 15px;
+	padding-top: 5px;
+	color: #665a1a;
+}
+
+.font-color-red {
+	color: #e8383d;
+}
+
+.time-box-icon{
+	height: 18px;
+	padding-right: 5px;
+}
+
+
+/*----------content----------*/
+.content-pic {
+	width: 370px;
+}
+
+.about-us {
+	padding-top: 150px; 
+}
+
+.about-us-title {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-bottom: dotted 8px #ee7700;
+}
+
+.content-pic {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.about-article-p {
+	padding-left: 10px;
+	background-color: #393939;
+	display: inline
+}
+/*----------Go to Toppage----------*/
+
+
+/*----------Slide----------*/
+.swiper-container {
+    max-width: 1100px;
+    max-height: 310px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.swiper-wrapper {
+	height: 200px;
+}
+
+.swiper-slide {
+	padding-top: 0 auto;
+    line-height: 250px;
+}
+
+.keyvisual {
+	width: 100%;
+}
+
+/*----------content(sns)----------*/
+.sns-container {
+	width: 100%;
+
+}
+
+.facebook-icon {
+	height: 29px;
+	width: 29px;
+}
+
+/*----------footer----------*/
+.footer-container {
+	height: 50px;
+	width: 100%;
+	background-color: #00ac97;
+	color: #fff;
+	text-align: center;
+}
+
+.footer-container p {
+	padding-top: 10px;
+}
+
+.sns-container {
+	margin: 10px auto;
+	height: 29px;
+	width: 29px;
+}
+
+
+/

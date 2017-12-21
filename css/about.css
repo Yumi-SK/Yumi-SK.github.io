@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Abril Fatface', cursive,"Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3","メイリオ","Meiryo","MS Pゴシック","MS Pgothic", sans-serif;
+}
+
+
+/*----------common----------*/
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*----------header----------*/
+
+header {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.header-container {
+	background: #fff;
+}
+
+.header-logo {
+	margin: 10px auto;
+	width: 120px;
+	height: 102px;
+	background : url(../img/common/logo.png);
+	font-size: 0;
+}
+
+/*----------navigation----------*/
+
+nav {
+	background: #fff;
+	border-bottom: solid 5px #00ac97;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+nav li {
+    display: block;
+    padding: 10px 30px;
+    font-size: 20px;
+} 
+
+a:link {
+	text-decoration: none;
+    color: #00ac97;
+}
+
+a:visited {
+    color: #00ac97;
+}
+
+a:hover {
+	color: #ea5549;
+}
+
+/*----------content----------*/
+.content-pic {
+	width: 400px;
+}
+
+.about-us {
+	padding-top: 20px; 
+	margin: 0 auto;	
+	height: 450px;
+}
+
+.about-us-title {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	color: #393939;
+}
+
+.about-article-p {
+	display: inline;
+	text-align: center;
+	color: #393939;
+}
+
+/*----------content min-width768px----------*/
+.about-us {
+	padding-top: 20px; 
+	margin: 0 auto;	
+	width: 1000px;
+}
+
+.content-pic {
+	float: left;
+	margin: 10px;
+}
+
+.about-us-title {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.about-article-p {
+	width: 400px;
+	overflow: hidden;
+	margin: 0 0 10 0px;
+	text-align: left;
+}
+
+/*----------footer----------*/
+.footer-container {
+	height: 50px;
+	width: 100%;
+	background-color: #4e454a;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+}
+/
