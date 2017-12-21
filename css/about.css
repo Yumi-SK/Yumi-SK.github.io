@@ -16,6 +16,11 @@
 	clear: both;
 }
 
+body {
+	margin: 0;
+	font-size: 16px;
+}
+
 /*----------header----------*/
 
 header {
@@ -99,30 +104,39 @@ a:hover {
 	width: 1000px;
 }
 
-.content-pic {
-	float: left;
-	margin: 10px;
-}
-
 .about-us-title {
 	padding-left: 10px;
 	padding-bottom: 10px;
+	color: #665a1a;
+}
+
+.about-article {
+	overflow: hidden;
+}
+
+.content-pic {
+	margin: 0 20px 10px 10px;
+	border : 6px solid	#665a1a;
+	float: left;
 }
 
 .about-article-p {
 	width: 400px;
-	overflow: hidden;
-	margin: 0 0 10 0px;
-	text-align: left;
+	color: #665a1a;
+	vertical-align: 13px;
 }
 
 /*----------footer----------*/
 .footer-container {
 	height: 50px;
 	width: 100%;
-	background-color: #4e454a;
-	text-align: center;
+	background-color: #00ac97;
 	color: #fff;
-	margin: 0 auto;
+	text-align: center;
 }
+
+.footer-container p {
+	padding-top: 10px;
+}
+
 /

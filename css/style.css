@@ -128,7 +128,6 @@ a:hover {
 	background-color: #393939;
 	display: inline
 }
-/*----------Go to Toppage----------*/
 
 
 /*----------Slide----------*/
@@ -154,10 +153,10 @@ a:hover {
 
 /*----------content(sns)----------*/
 .sns-container {
-	width: 100%;
-
+	margin: 10px auto;
+	height: 50px;
+	width: 29px;
 }
-
 .facebook-icon {
 	height: 29px;
 	width: 29px;
@@ -174,12 +173,6 @@ a:hover {
 
 .footer-container p {
 	padding-top: 10px;
-}
-
-.sns-container {
-	margin: 10px auto;
-	height: 29px;
-	width: 29px;
 }
 
 
